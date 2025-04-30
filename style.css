@@ -10,6 +10,9 @@ header img {
     width: 80%;
     max-width: 800px;
     height: auto;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    opacity: 0.9; /* Imagem 90% opaca */
 }
 
 main {
@@ -37,7 +40,12 @@ main {
 
 .imagens-direita img {
     margin-bottom: 15px;
-    width: 100%;
+    width: 100%; /* Ajusta a largura para o contêiner */
     max-width: 150px;
     height: auto;
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    opacity: 0.8; /* Imagem 80% opaca */
+    transform: rotate(10deg); /* Gira a imagem em 10 graus */
 }
